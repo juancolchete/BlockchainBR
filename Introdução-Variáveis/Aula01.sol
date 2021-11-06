@@ -22,5 +22,9 @@ contract Aula01{
         uint soma = primeiroNumero + segundoNumero + terceiroNumero;
         return soma;
     }
-
+    
+    //Variáveis Globais - Essas variáveis especiais existem no contexto global da área de trabalho e provê informações sobre a blockchain em que o contrato roda e propriedades das transações
+    function obtemEnderecoChamada() public view returns(address){
+        return msg.sender;
+    }
 }
