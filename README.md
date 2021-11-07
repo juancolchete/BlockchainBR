@@ -8,4 +8,5 @@ Esse repositório tem como objetivo facilitar o aprendizado de desenvolvimento e
 ```ufixed``` - Número com casas decimais não negativo.  
 ```address```- endereço que armazena um valor de 20 bytes que representa uma carteira.  
 ```address payable``` endereço semelhante ao anterior porém com a função de ```enviar``` e ```receber``` tokens.  
-```enum``` enumerado, utilizado para susbtituir valores inteiros por palavras e deixar o código mais legível
+```enum``` enumerado, utilizado para susbtituir valores inteiros por palavras e deixar o código mais legível  
+## [Aulas](https://github.com/juanudk/BlockchainBR/blob/main/aulas.md)
