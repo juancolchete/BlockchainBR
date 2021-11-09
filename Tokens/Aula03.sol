@@ -1,17 +1,23 @@
 // SPDX-License-Identifier: GPL3
 pragma solidity ^0.8.7;
-
+//Nome do contrato, como boa prática o nome dele deve ser o mesmo do token
 contract PrimeiroCoin{
+    //Mapeamento para conseguir puxar as quantidades de token baseado no endereço
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
+    //Definir a quantidade máxima de tokens
     uint public totalSupply = 300000000 * 10 ** 18;
+    //Aqui é definido o nome do Token
     string public name =  "PrimeiroCoin";
+    //Aqui é definido o código que Identifica o token
     string public symbol = "PCOIN";
+    //quantidade de decimais
     uint public decimals = 18;
-    
+    //Função de transferir
     event Transfer(address indexed from, address indexed to, uint value);
+    //Função de aprovar gasto de determinado token
     event Approval(address indexed owner, address indexed spender, uint value);
-    
+    //Função para a carteira que criou o contato receber todo o supply
     constructor(){
         balances[msg.sender] =  totalSupply;
     }
