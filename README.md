@@ -10,3 +10,5 @@ Esse repositório tem como objetivo facilitar o aprendizado de desenvolvimento e
 ```address payable``` endereço semelhante ao anterior porém com a função de ```enviar``` e ```receber``` tokens.  
 ```enum``` enumerado, utilizado para susbtituir valores inteiros por palavras e deixar o código mais legível  
 ## [Aulas](https://github.com/juanudk/BlockchainBR/blob/main/aulas.md)
+## Anotações
+[Notion](https://charmed-education-921.notion.site/Blockchain-BR-e74920b0b7e3496ab040b3fe81c256a0)
