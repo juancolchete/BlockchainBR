@@ -9,5 +9,5 @@ Esta aula explica sobre o uso de operadores relacionais condicionais e a estrutu
 ## Tokens
 ### [Aula01](https://github.com/juanudk/BlockchainBR/blob/main/Tokens/Aula01.sol)
 Esta aula explica, como pode ser criado um token
-### [Aula02 TestCoin](https://github.com/juanudk/BlockchainBR/blob/main/Tokens/TestCoin.sol)
+### [Aula02 TesteCoin](https://github.com/juanudk/BlockchainBR/blob/main/Tokens/TesteCoin.sol)
 Esta aula explica, como pode ser criado um token utilizando a biblioteca do Open Zeppelin com a possibilidade do mint
