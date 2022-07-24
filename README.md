@@ -1,5 +1,5 @@
 # BlockchainBR
-Esse repositório tem como objetivo facilitar o aprendizado de desenvolvimento em Blockchains, com o foco em Solidity que atualmente é utilizada nas Blockchains Etherium e Binance Smart Chain.
+Esse repositório tem como objetivo facilitar o aprendizado de desenvolvimento em Blockchains, com o foco em Solidity que atualmente é utilizada nas Blockchains Ethereum e Binance Smart Chain.
 ## Tipos de dados Solidity
 ```int``` - Integer, representa números inteiros.  
 ```uint``` - Unsigned Integer, representa números inteiros não negativos.  
